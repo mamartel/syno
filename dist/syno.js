@@ -200,7 +200,7 @@
                 Auth.prototype.login = function(done) {
                   var method, params, session;
                   method = 'login';
-                  session = 'SYNO_SESSION_' + Date.now();
+                  session = 'FileStation';
                   params = {
                     account: this.syno.account,
                     passwd: this.syno.passwd,
